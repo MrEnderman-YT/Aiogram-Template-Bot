@@ -26,26 +26,46 @@
 
 ```
 source
-    ├───data
-    ├───db
-    ├───dialog
-    ├───exceptions
-    ├───locales
-    ├───misc
-    ├───telegram
-    │   ├───filters
-    │   ├───handlres
+────┐
+    ├───┤data
+    │
+    ├───┤db
+    │
+    ├───┤dialog
+    │
+    ├───┤exceptions
+    │
+    ├───┤locales
+    │
+    ├───┤misc
+    │
+    ├───┐telegram
+    │   │ 
+    │   ├───┤filters
+    │   │ 
+    │   ├───┐handlres
+    │   │   │
     │   │   ├───admin
+    │   │   │
     │   │   ├───extra
+    │   │   │
     │   │   └───user
-    │   ├───keyboards
+    │   │ 
+    │   ├───┐keyboards
+    │   │   │
     │   │   ├───callback
+    │   │   │
     │   │   ├───inline
+    │   │   │
     │   │   └───reply
-    │   ├───middlewares
-    │   └───states
-    ├───services
-    └───models
+    │   │ 
+    │   ├─── middlewares
+    │   │ 
+    │   └───┤states
+    │
+    ├───┤services
+    │
+    └───┤models
 ```
 
 ⠀
