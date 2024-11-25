@@ -2,6 +2,9 @@
 
 <h1>Aiogram Bot Tamplate</h1>
 
+<img alt="Static Badge" src="https://img.shields.io/badge/tag-v1.0.0-blue?style=flat&logo=task&logoColor=blue&labelColor=gray">
+<img alt="Static Badge" src="https://img.shields.io/badge/python-v3.13.0-FBDE02?style=flat&logo=python&logoColor=FBDE02&labelColor=gray">
+
 </div>
 
 
@@ -39,27 +42,27 @@ source
     │
     ├───┤misc
     │
-    ├───┐telegram
+    ├───┤telegram
     │   │ 
     │   ├───┤filters
     │   │ 
-    │   ├───┐handlres
+    │   ├───┤handlres
     │   │   │
-    │   │   ├───admin
+    │   │   ├───┤admin
     │   │   │
-    │   │   ├───extra
+    │   │   ├───┤extra
     │   │   │
-    │   │   └───user
+    │   │   └───┤user
     │   │ 
-    │   ├───┐keyboards
+    │   ├───┤keyboards
     │   │   │
-    │   │   ├───callback
+    │   │   ├───┤callback
     │   │   │
-    │   │   ├───inline
+    │   │   ├───┤inline
     │   │   │
-    │   │   └───reply
+    │   │   └───┤reply
     │   │ 
-    │   ├─── middlewares
+    │   ├───┤middlewares
     │   │ 
     │   └───┤states
     │
