@@ -142,6 +142,58 @@ source
 | DB_NAME                   | |
 
 ⠀
+## 💻 Bot setup
+⠀
+
+1. Клонируйте репозиторий и перейдите в каталог проекта:
+
+```shell
+git clone https://github.com/MrEnderman-YT/Aiogram-Template-Bot.git
+cd chatgpt-telegram-bot
+```
+⠀
+
+2. Создайте виртуальное окружение
+
+```shell
+python -m venv venv
+```
+⠀
+
+3. Активируйте виртуальное окружение
+
+```shell
+# For Linux or macOS:
+source venv/bin/activate
+
+# For Windows:
+venv\Scripts\activate
+```
+⠀
+
+4. Установите нужные библиотеки из файла `requirements.txt`:
+
+```shell
+pip install -r requirements.txt
+```
+⠀
+
+5. Для запуска бота используйте команду:
+
+```
+python bot/main.py
+```
+
+⠀
+## 🗃️ Stack of technologies
+⠀
+
+* [Aiogram-3](https://github.com/aiogram/aiogram) - полностью асинхронный фреймворк для Telegram Bot API.
+* [PostgreSQL](https://github.com/MagicStack/asyncpg?tab=readme-ov-file) - база данных PostgreSQL.
+* [Asyncpg](https://github.com/MagicStack/asyncpg?tab=readme-ov-file) - библиотека для работы с базами данных PostgreSQL.
+* [loguru](https://github.com/Delgan/loguru) - библиотека для логирования.
+
+⠀
 ## 💼 Links
 ⠀
 
